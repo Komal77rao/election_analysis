@@ -5,10 +5,6 @@
  #5 The total number of votes each candidate won
  #6 The winner of the elections based on the popular vote
 
-file_to_load = 'Resources/election_results.csv'
-
-#with open(file_to_load) as election_data:
-    #print(election_data)
 #import the dependencies
 #import csv module
 import csv
@@ -48,10 +44,21 @@ with open(file_to_load,'r') as election_data:
             candidate_voters[candidate_name]= 0
         candidate_voters[candidate_name] += 1
 
+#save results to text file
+with open(file_to_save,"w") as txt_file:
+    election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n")
+    print(election_results, end="")
+    # Save the final vote count to the text file.
+    txt_file.write(election_results)
+
     for candidate_name in candidate_voters:
         votes = candidate_voters[candidate_name]
         vote_percentage = float(votes)/float(total_votes)*100
-        print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+        #print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
         # Determine winning vote count and candidate
         # 1. Determine if the votes are greater than the winning count.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
@@ -67,20 +74,10 @@ with open(file_to_load,'r') as election_data:
     f"Winning Vote Count: {winning_count:,}\n"
     f"Winning Percentage: {winning_percentage:.1f}%\n"
     f"-------------------------\n")
-print(winning_candidate_summary)
+#print(winning_candidate_summary)
             
 
 
-
-
-
-#reference the output path with a variable, where the file will be saved
-#create a folder "analysis"
-file_to_save= os.path.join("analysis","election_analysis.txt")
-
-with open (file_to_save,"w") as riting:
-    riting.write("Counties in the Election\n-----------------------\nArapahoe\n")
-    riting.write("Denver\nJefferson")
 
 
 
