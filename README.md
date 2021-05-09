@@ -1,4 +1,3 @@
-![Picture2](https://user-images.githubusercontent.com/79213116/117574084-7000e300-b0a9-11eb-8b8c-32401ee0d1c1.png)
 # Analysis of the Colorado elections
 
 
@@ -50,7 +49,7 @@ The link for the Python code can be found here: [Python_Code](https://github.com
 The election results in the terminal can be seen in the following image:
 
 
-![Picture2](https://user-images.githubusercontent.com/79213116/117574084-7000e300-b0a9-11eb-8b8c-32401ee0d1c1.png)
+![Picture2](https://user-images.githubusercontent.com/79213116/117574166-d38b1080-b0a9-11eb-9b0a-ba510dbe9f44.png)
 
 
 ### Summary 
