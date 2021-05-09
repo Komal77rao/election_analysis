@@ -4,6 +4,9 @@
  #4 The percentage of votes each candidate won
  #5 The total number of votes each candidate won
  #6 The winner of the elections based on the popular vote
+ #7 The voter turnout for each county.
+ #8 The percentage of votes each county contributed to the election.
+ #9 The county with the largest turnout.
 
 #import the dependencies
 #import csv module
@@ -17,7 +20,7 @@ file_to_save = os.path.join("analysis","election_analysis.txt")
 
 #initial a total vote counter
 total_votes = 0 
-
+s
 candidate_option=[]
 candidate_voters={}
 
