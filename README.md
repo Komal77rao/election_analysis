@@ -44,7 +44,7 @@ the percentage of the total votes each candidate received was 3.1%, 23%, and 73.
 
 
 
-The link for the Python code can be found here: [Python_Code](https://github.com/Komal77rao/election_analysis/commit/1a3a3905926577a264b8e3943d171bf185a19bf6)
+The link for the Python code can be found here: [Python_Code](https://github.com/Komal77rao/election_analysis/blob/main/Pypoll_challenge.py)
 
 
 
