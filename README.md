@@ -44,10 +44,16 @@ the percentage of the total votes each candidate received was 3.1%, 23%, and 73.
 
 
 
-The link for the Python code can be found here: [Python_Code](https://github.com/Komal77rao/election_analysis/commit/1a3a3905926577a264b8e3943d171bf185a19bf6)
+The link for the Python code can be found here: [Python_Code](https://github.com/Komal77rao/election_analysis/blob/main/Pypoll_challenge.py)
 
+The election results in the terminal can be seen in the following image:
+
+
+![Picture2](https://user-images.githubusercontent.com/79213116/117574166-d38b1080-b0a9-11eb-9b0a-ba510dbe9f44.png)
 
 
 ### Summary 
 
 The generated election report for colorado contains the python script that can be used for any elections. We can loop through the CSV for multiple results of the state elections as well. We can modify the script to include the vote count for every state.
+
+
